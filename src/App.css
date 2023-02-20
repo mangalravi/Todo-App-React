@@ -1,0 +1,116 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  /* background-image: url(image/nature9.jpg);
+  background-image: url(https://dog.ceo/api/breeds/image/random);
+  background-repeat: no-repeat;
+  background-size:cover; */
+background-image: radial-gradient(ellipse at top,red,transparent),
+radial-gradient(ellipse at bottom,aqua,transparent),
+radial-gradient(ellipse at right,yellow,transparent),
+radial-gradient(ellipse at left,green,transparent);
+}
+.container{
+  background: linear-gradient(to right button, #e1b382 , #c89666);
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 2px 6px 0px gray , 0px 4px 12px 0px greenyellow;
+}
+.app-wrapper {
+  /* background-image: url(image/nature3.jpg);
+  background-repeat: no-repeat;
+  background-size:cover; */
+  background-color: transparent;
+  min-height: 450px;
+  min-width: 650px;
+  padding: 30px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  /* box-shadow: 3px 6px 40px #000; */
+   margin-bottom: 10px;
+}
+.header h1{
+color: #fff;
+text-align: center;
+margin: 30px 0;
+}
+.task-input{
+  outline: none;
+  width: 260px;
+  padding: 15px;
+  margin-left: 20%;
+  font-size: 25px;
+  color: black;
+  background-color: transparent;
+  /* border: 1px solid #c89666; */
+  border-radius: 10px;
+}
+.button-add{
+  width: 70px;
+  margin:15px;
+  padding: 15px 15px;
+  font-size: 20px;
+  border-radius: 10px;
+  border: 1px solid wheat;
+  background-color: khaki;
+  cursor: pointer;
+}
+.button-add:hover{
+  background-color: pink;
+}
+#Ravi{
+  overflow:hidden;
+}
+.list-item{
+  display: flex;
+  margin: 20px 0;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  max-height: 30px;
+  /* overflow: scroll; */
+}
+.button-complete,
+.button-delete,
+.button-edit{
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  font-size: 20px;
+  border-radius: 50%;
+}
+
+.button-edit{
+  color: yellow;
+  margin-right: 10px;
+  margin-left: 50px;
+}
+.button-edit:hover{
+color: chartreuse;
+}
+.button-delete{
+  color: lightseagreen;
+  margin-left: 35px;
+}
+.button-delete:hover{
+  color:crimson
+}
+
+.list{
+width: 220px;
+background-color: transparent;
+border: none;
+color:white;
+font-size: 20px;
+padding-left: 10px;
+margin-right: 15px;
+}
+input:focus,button:focus{
+  outline: none;
+}
